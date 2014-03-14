@@ -1,0 +1,34 @@
+{
+	"name": "hangouts",
+	"description": "",
+	"version": "0.0.17",
+	"threevot": {
+		"displayName": "hangouts",
+		"size": "small",
+		"private": false,
+		"privateCode": "",
+		"external": {},
+		"entries": {
+			"index": [
+				"desktop",
+				"laptop",
+				"phone",
+				"tablet"
+			]
+		},
+		"extensions": [
+			".coffee",
+			".eco",
+			".html"
+		],
+		"transforms": [
+			"coffeeify",
+			"brfs"
+		],
+		"gitDependencies": {},
+		"version": "17"
+	},
+	"dependencies": {
+		"3vot": "0.0.3"
+	}
+}
